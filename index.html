@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Enhanced Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header id="header">
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+        I'm an engineering student with a passion for technology and innovation. I love solving complex problems and creating sleek, user-friendly solutions using modern web technologies. Always eager to learn and collaborate, I continuously push myself to explore new skills and tackle real-world challenges.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>SKILLUP : Tutor Application</h3>
+        <ul>
+          <li>Website that enables users to enroll in personalized courses with one-to-one tutor assistance.</li>
+          <li>User-friendly interface for both students and tutors.</li>
+          <li>Flexible slot selection for users with tutor approval.</li>
+          <li>Fully responsive web application built using HTML, CSS, and JavaScript.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>User Management System :</h3>
+        <ul>
+          <li>Developed a system with complete CRUD functionality for managing user profiles.</li>
+          <li>Designed responsive user interfaces using reusable components like forms, modals, and dynamic tables.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>Hand Gesture Vocalizer :</h3>
+        <ul>
+          <li>Converted predefined hand gestures into corresponding written messages on an LCD.</li>
+          <li>Enabled seamless communication for individuals with speech impairments.</li>
+          <li>Utilized flex sensors and a microcontroller for accurate gesture recognition.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>E-commerce Product List :</h3>
+        <ul>
+          <li>Product Listing application built with React.</li>
+          <li>Enabled users to browse, search, and filter products based on criteria like category, price, and rating.</li>
+          <li>Integrated shopping cart functionality to track selected items.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>Clash and Reverse Coding :</h3>
+        <ul>
+          <li>Developed a web platform for code submissions using a sandboxed environment.</li>
+          <li>Judged code submissions across multiple test cases.</li>
+          <li>Technologies used: Django, HTML, CSS, and Linux.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>Eternal Kolas :</h3>
+        <ul>
+          <li>Developed responsive websites using HTML, ReactJS, and Tailwind CSS.</li>
+          <li>Built a platform for users to collect, trade, and support koala conservation.</li>
+          <li>Collaborated in agile stand-ups, sprint planning, and code reviews.</li>
+          <li>Optimized performance and ensured a seamless user experience.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>React & NodeJs</li>
+      <li>C, C++ and Java</li>
+      <li>DSA & OOPS</li>
+      <li>DBMS & SQL</li>
+      <li>Git & Mysql</li>
+      <li>Tailwind</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>
+      Feel free to reach out via <a href="mailto:vasudhaghule33@gmail.com">vasudhaghule33@gmail.com</a>  or connect with me on 
+      <a href="https://www.linkedin.com/in/vasudha-ghule-5137b6242/" className="text-blue hover:underline inline-flex items-center mx-1">
+        <FaLinkedin className="mr-1" size={16} />
+        <span>LinkedIn</span>
+      </a>.
+    </p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Enhanced Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
